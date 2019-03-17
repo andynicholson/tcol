@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ffmpeg -f concat -safe 0 -i $1 -c copy $2
+/usr/bin/ffmpeg -f concat -safe 0 -i $1 -c copy $2

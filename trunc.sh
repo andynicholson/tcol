@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ffmpeg -i $1 -t 1200 -c copy $2
+/usr/bin/ffmpeg -i $1 -t 1200 -c copy $2
